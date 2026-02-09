@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Golden Plate | Restaurant & Booking</title>
+
+    <style>
+
+        body { font-family: sans-serif; line-height: 1.6; margin: 0; padding: 20px; background-color: #f4f4f4; }
+
+        header, footer { background: #333; color: #fff; padding: 1rem; text-align: center; }
+
+        nav a { color: #fff; margin: 0 10px; text-decoration: none; }
+
+        main { max-width: 800px; margin: 20px auto; background: #fff; padding: 20px; border-radius: 8px; }
+
+        section, article { margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px; }
+
+        form div { margin-bottom: 15px; }
+
+        label { display: block; font-weight: bold; }
+
+        input[type="text"], input[type="email"], input[type="number"], select { width: 100%; padding: 8px; margin-top: 5px; }
+
+        button { background: #27ae60; color: white; padding: 10px 20px; border: none; cursor: pointer; border-radius: 4px; }
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>The Golden Plate</h1>
+
+        <nav>
+
+            <a href="#about">About</a>
+
+            <a href="#menu">Menu</a>
+
+            <a href="#special">Chef's Special</a>
+
+            <a href="#booking">Book a Table</a>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="about">
+
+            <h2>About Our Restaurant</h2>
+
+            <p>Welcome to The Golden Plate, where we combine traditional recipes with a modern twist. Established in 2010, our mission is to provide an unforgettable dining experience.</p>
+
+        </section>
+
+        <section id="menu">
+
+            <h2>Food Menu</h2>
+
+            <ul>
+
+                <li><strong>Truffle Pasta</strong> - $18</li>
+
+                <li><strong>Grilled Salmon</strong> - $22</li>
+
+                <li><strong>Garden Risotto</strong> - $16</li>
+
+                <li><strong>Classic Cheesecake</strong> - $8</li>
+
+            </ul>
+
+        </section>
+
+        <article id="special">
+
+            <h2>Chef's Special: Wagyu Beef Sliders</h2>
+
+            <p>This month, enjoy our premium Wagyu sliders topped with caramelized onions, aged cheddar, and our secret house sauce. Served with truffle fries.</p>
+
+        </article>
+
+        <hr>
+
+        <section id="booking">
+
+            <h2>Table Booking Form</h2>
+
+            <form action="#" method="post">
+
+                <div>
+
+                    <label for="name">Name:</label>
+
+                    <input type="text" id="name" name="name" required>
+
+                </div>
+
+                <div>
+
+                    <label for="email">Email:</label>
+
+                    <input type="email" id="email" name="email" required>
+
+                </div>
+
+                <div>
+
+                    <label for="guests">Number of Guests:</label>
+
+                    <input type="number" id="guests" name="guests" min="1" max="20" required>
+
+                </div>
+
+                <div>
+
+                    <label>Dietary Preference:</label>
+
+                    <input type="radio" id="veg" name="diet" value="veg">
+
+                    <label style="display:inline;" for="veg">Veg</label>
+
+                    <input type="radio" id="nonveg" name="diet" value="non-veg">
+
+                    <label style="display:inline;" for="nonveg">Non-Veg</label>
+
+                </div>
+
+                <div>
+
+                    <label for="meal">Select Meal:</label>
+
+                    <select id="meal" name="meal">
+
+                        <option value="breakfast">Breakfast</option>
+
+                        <option value="lunch">Lunch</option>
+
+                        <option value="dinner">Dinner</option>
+
+                    </select>
+
+                </div>
+
+                <button type="submit">Submit Booking</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>123 Flavor Street, Foodie City | Contact: (555) 123-4567 | email@goldenplate.com</p>
+
+    </footer>
+
+</body>
+
+</html>
